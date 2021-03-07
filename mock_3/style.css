@@ -1,0 +1,70 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI";
+}
+.container {
+  height: 520px;
+  width: 600px;
+  border: 2px solid gray;
+  border-radius: 5px;
+  position: relative;
+  display: inline-block;
+  padding: 0.1rem 0;
+  margin: 1rem 25%;
+}
+
+.mock {
+  border-bottom: 2px solid gray;
+  height: 1.5rem;
+}
+
+.mock p {
+  font-size: 15px;
+  font-weight: 600;
+  padding-left: 1rem;
+}
+
+.div1 {
+  width: 94%;
+  height: 5rem;
+  background: #009e0f;
+  margin: 2.5rem 1rem 0.5rem 1rem;
+  border: 2px solid #414040;
+}
+
+.img-div,
+.color-boxs {
+  width: 95%;
+  height: 10rem;
+  position: relative;
+  margin: 1rem;
+  display: flex;
+  overflow: hidden;
+}
+
+.img-div .div2 img {
+  width: 11.6rem;
+  height: 10rem;
+  margin-right: 0.3rem;
+}
+
+.div5,
+.div6,
+.div7 {
+  width: 15rem;
+  height: 9.5rem;
+  margin-right: 0.3rem;
+  border: 2px solid #414040;
+}
+
+.div5 {
+  background: #ff9900;
+}
+.div6 {
+  background: #cf2a27;
+}
+.div7 {
+  background: #6fa8dc;
+}
