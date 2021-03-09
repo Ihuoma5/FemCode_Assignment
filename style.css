@@ -1,0 +1,48 @@
+body{
+  text-align: center;
+}
+.clock{
+  width: 500px;
+  height: 500px;
+  display: inline-block;
+  border: 10px solid black;
+  padding: 20px;
+  border-radius: 50%;
+}
+.sec, .min, .hour {
+  line-height: 45px;
+  position: relative;
+  transform-origin: bottom;
+}
+.sec{
+  height: 260px;
+  width: 5px;
+  left: 245px;
+  background-color: black;
+  z-index: 3;
+  animation: sec_anims 60s linear infinite;
+}
+.min{
+  height: 250px;
+  width: 10px;
+  left: 242.5px;
+  background-color: red;
+  z-index: 2;
+  top: -250px;
+  animation: sec_anims 80s linear infinite;
+
+}
+.hour{
+  height: 190px;
+  width: 14px;
+  left: 240px;
+  background-color: blue;
+  z-index: 1;
+  top: -441px;
+  animation: sec_anims 100s linear infinite;
+
+}
+@keyframes sec_anims{
+  from{transform: rotateZ(0deg);}
+  to{transform: rotateZ(360deg);}
+}
